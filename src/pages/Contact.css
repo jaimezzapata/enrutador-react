@@ -1,0 +1,39 @@
+.contact-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+  color: #111827;
+}
+
+.contact-page h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.contact-intro {
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.contact-card {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.contact-card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.contact-card p {
+  margin: 0;
+  color: #4b5563;
+}
